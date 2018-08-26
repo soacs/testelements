@@ -1,15 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
+import { NgModule, Injector } from '@angular/core';
+import { AppComponent } from '../app/app/app.component';
+import { ButtonModule } from './button/button.module';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChildComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ButtonModule
   ],
+  entryComponents: [],
   providers: [],
   bootstrap: [AppComponent]
 })
