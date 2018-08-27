@@ -1,8 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, Injector } from '@angular/core';
-import { AppComponent } from '../app/app/app.component';
-import { ButtonModule } from './button/button.module';
-import { ChildComponent } from './child/child.component';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule, Injector} from '@angular/core';
+import {AppComponent} from '../app/app/app.component';
+import {ButtonModule} from './button/button.module';
+import {ChildComponent} from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -17,4 +17,5 @@ import { ChildComponent } from './child/child.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

@@ -1,0 +1,17 @@
+button {
+  background: darkorange;
+  color: black;
+  padding: 2px;
+  border: 2px solid goldenrod;
+  font-family: arial;
+  font-size: 14px;
+}
+
+:host {
+  color: dodgerblue;
+}
+
+div {
+  background: linen !important;
+  padding:10px;
+}
